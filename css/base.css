@@ -60,3 +60,8 @@ p {
     color: var(--neutral-color);
     font-size: 1.1rem;
 }
+
+.break {
+    position: absolute;
+    margin-top: -60;
+}
