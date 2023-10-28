@@ -21,6 +21,5 @@ document.querySelectorAll(".nav-footer a").forEach(option => {
         document.getElementById(targetID).scrollIntoView({
             behavior: 'smooth'
         });
-
     });
 });
