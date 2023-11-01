@@ -1,13 +1,11 @@
 let projects;
 let experience;
 
-
-
 /*Let's get the data*/
 fetch('../data/projects.json').then(response => {
     /*We get a response, what's next?*/
     return response.json();
-    
+
     /*Create the project cards*/
 }).then(createProjectCards);
 
