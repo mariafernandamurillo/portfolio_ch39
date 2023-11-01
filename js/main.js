@@ -6,14 +6,12 @@ let experience;
 /*Let's get the data*/
 fetch('../data/projects.json').then(response => {
     /*We get a response, what's next?*/
-    console.log(response);
-
     return response.json();
+    
     /*Create the project cards*/
 }).then(createProjectCards);
 
 fetch('./data/experience.json').then(response => response.json()).then(createExperienceCards);
-
 
 function createProjectCards(json) {
     projects = json;
